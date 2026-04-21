@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Barber — Cortes de Excelência</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;1,300&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="#inicio" class="nav-logo">Diego<span>BARBER</span></a>
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#planos">Planos</a></li>
+    <li><a href="#localizacao">Localização</a></li>
+    <li><a href="#localizacao" class="nav-cta">Agendar</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#sobre" onclick="closeMobile()">Sobre Nós</a>
+  <a href="#servicos" onclick="closeMobile()">Serviços</a>
+  <a href="#planos" onclick="closeMobile()">Planos</a>
+  <a href="#localizacao" onclick="closeMobile()">Localização</a>
+</div>
+
+<!-- HERO -->
+<section id="inicio">
+  <div class="hero-bg"></div>
+  <div class="hero-lines"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Desde 2023 — Brasília, DF</div>
+    <h1 class="hero-title">
+      DIEGO<br>
+      <span class="outline">BARBER</span><br>
+    </h1>
+    <p class="hero-subtitle">
+      Onde cada corte é uma obra de arte. Precisão, estilo e tradição reunidos no melhor espaço para o homem moderno.
+    </p>
+    <div class="hero-actions">
+      <a href="#localizacao" class="btn-primary">Agendar Horário</a>
+      <a href="#servicos" class="btn-secondary">Ver Serviços</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-number">2K+</div>
+      <span class="stat-label">Clientes Atendidos</span>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">3</div>
+      <span class="stat-label">Anos de Experiência</span>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre">
+  <div style="max-width:1300px;margin:0 auto;">
+    <div class="sobre-grid">
+      <div class="sobre-visual reveal">
+        <div class="sobre-img-frame">
+          <div class="sobre-img-inner">
+            <div class="barber-pole-icon"></div>
+          </div>
+          <div class="sobre-label">DB</div>
+          <div class="corner-deco tl"></div>
+          <div class="corner-deco br"></div>
+        </div>
+        <div class="sobre-badge">
+          <span class="big">3</span>
+          <span class="small">ANOS DE<br>TRADIÇÃO</span>
+        </div>
+      </div>
+      <div class="sobre-text reveal">
+        <div class="section-header">
+          <div class="section-tag">Quem Somos</div>
+          <h2 class="section-title">A ARTE<br>DE <span class="outline">CORTAR</span></h2>
+          <div class="section-divider"></div>
+        </div>
+        <p>
+          A <strong style="color:var(--white)">Diego Barber</strong> nasceu da paixão por transformar a barbearia em muito mais do que um simples corte de cabelo. Somos um espaço de estilo e respeito onde cada cliente é tratado com atenção única.
+        </p>
+        <p>
+          Desde 2023 construindo nossa tradição.
+        </p>
+        <div class="sobre-features">
+          <div class="feature-item">Cortes Clássicos</div>
+          <div class="feature-item">Barbas Modeladas</div>
+          <div class="feature-item">Tratamentos Capilares</div>
+          <div class="feature-item">Produtos Premium</div>
+          <div class="feature-item">Ambiente Aconchegante</div>
+          <div class="feature-item">Agendamento Online</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos">
+  <div class="section-header reveal" style="max-width:1300px;margin:0 auto 80px;">
+    <div class="section-tag">O Que Fazemos</div>
+    <h2 class="section-title">NOSSOS<br><span class="outline">SERVIÇOS</span></h2>
+    <div class="section-divider"></div>
+  </div>
+  <div class="servicos-grid">
+
+    <div class="servico-card reveal">
+      <span class="servico-icon"></span>
+      <span class="servico-number">01</span>
+      <h3 class="servico-name">Corte Clássico</h3>
+      <p class="servico-desc">Cortes tradicionais executados com navalha e tesoura, seguindo os mais altos padrões da barbearia clássica.</p>
+      <span class="servico-price">A partir de R$ 35</span>
+    </div>
+
+    <div class="servico-card reveal">
+      <span class="servico-icon"></span>
+      <span class="servico-number">02</span>
+      <h3 class="servico-name">Barba Completa</h3>
+      <p class="servico-desc">Modelagem, hidratação e acabamento perfeito com toalha quente, óleos essenciais e navalha profissional.</p>
+      <span class="servico-price">A partir de R$ 25</span>
+    </div>
+
+    <div class="servico-card reveal">
+      <span class="servico-icon"></span>
+      <span class="servico-number">03</span>
+      <h3 class="servico-name">Combo Completo</h3>
+      <p class="servico-desc">Corte + barba com experiência completa: lavagem, hidratação, modelagem e finalização premium.</p>
+      <span class="servico-price">A partir de R$ 50</span>
+    </div>
+
+    <div class="servico-card reveal">
+      <span class="servico-icon"></span>
+      <span class="servico-number">04</span>
+      <h3 class="servico-name">Tratamento Capilar</h3>
+      <p class="servico-desc">Hidratação profunda, reconstrução e tonificação para cabelos danificados ou com necessidades específicas.</p>
+      <span class="servico-price">A partir de R$ 80</span>
+    </div>
+
+    <div class="servico-card reveal">
+      <span class="servico-icon"></span>
+      <span class="servico-number">05</span>
+      <h3 class="servico-name">Sombrancelha</h3>
+      <p class="servico-desc">Deixe sua imagem mais moderna com perfeição cirúrgica.</p>
+      <span class="servico-price">A partir de R$ 5</span>
+    </div>
+
+    <div class="servico-card reveal">
+      <span class="servico-icon"></span>
+      <span class="servico-number">06</span>
+      <h3 class="servico-name">Pintura Capilar</h3>
+      <p class="servico-desc">Renove seu estilo da melhor forma possivel.</p>
+      <span class="servico-price">A partir de R$ 100</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- PLANOS -->
+<section id="planos">
+  <div class="planos-wrapper">
+    <div class="section-header reveal">
+      <div class="section-tag">Mensalidades</div>
+      <h2 class="section-title">PLANOS &<br><span class="outline">VALORES</span></h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="planos-grid">
+
+      <div class="plano-card reveal">
+        <span class="plano-name">BÁSICO</span>
+        <span class="plano-tag">Para começar</span>
+        <div class="plano-price">
+          <span class="plano-currency">R$</span>
+          <span class="plano-value">89</span>
+          <span class="plano-period">/mês</span>
+        </div>
+        <div class="plano-divider"></div>
+        <ul class="plano-features">
+          <li>2 cortes por mês</li>
+          <li>Lavagem inclusa</li>
+          <li>Desconto de 10% em produtos</li>
+          <li class="off">Barba inclusa</li>
+          <li class="off">Tratamento capilar</li>
+        </ul>
+        <a href="#localizacao" class="btn-plano">Assinar Plano</a>
+      </div>
+
+      <div class="plano-card featured reveal">
+        <div class="plano-badge">★ Mais Popular</div>
+        <span class="plano-name">GOLD</span>
+        <span class="plano-tag">O mais escolhido</span>
+        <div class="plano-price">
+          <span class="plano-currency">R$</span>
+          <span class="plano-value">159</span>
+          <span class="plano-period">/mês</span>
+        </div>
+        <div class="plano-divider"></div>
+        <ul class="plano-features">
+          <li>4 cortes por mês</li>
+          <li>Lavagem + hidratação</li>
+          <li>Desconto de 20% em produtos</li>
+          <li>2 barbas inclusas</li>
+          <li>1 tratamento capilar</li>
+        </ul>
+        <a href="#localizacao" class="btn-plano featured-btn">Assinar Plano</a>
+      </div>
+
+      <div class="plano-card reveal">
+        <span class="plano-name">BLACK</span>
+        <span class="plano-tag">Experiência total</span>
+        <div class="plano-price">
+          <span class="plano-currency">R$</span>
+          <span class="plano-value">249</span>
+          <span class="plano-period">/mês</span>
+        </div>
+        <div class="plano-divider"></div>
+        <ul class="plano-features">
+          <li>Cortes ilimitados</li>
+          <li>Todos os tratamentos</li>
+          <li>Desconto de 30% em produtos</li>
+          <li>Barba ilimitada</li>
+          <li>Tratamentos capilares</li>
+        </ul>
+        <a href="#localizacao" class="btn-plano">Assinar Plano</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- LOCALIZAÇÃO -->
+<section id="localizacao">
+  <div class="section-header reveal" style="max-width:1300px;margin:0 auto 80px;">
+    <div class="section-tag">Onde Estamos</div>
+    <h2 class="section-title">NOSSA<br><span class="outline">LOCALIZAÇÃO</span></h2>
+    <div class="section-divider"></div>
+  </div>
+  <div class="local-grid">
+    <div class="local-info reveal">
+
+      <div class="local-item">
+        <span class="local-icon">📍</span>
+        <div>
+          <span class="local-detail-title">Endereço</span>
+          <div class="local-detail-text">
+            Q 203 Conjunto 7<br>
+            Recanto das Emas — Brasília, DF<br>
+            CEP: 72610-307
+          </div>
+        </div>
+      </div>
+
+      <div class="local-item">
+        <span class="local-icon">🕐</span>
+        <div>
+          <span class="local-detail-title">Horário de Funcionamento</span>
+          <div class="local-detail-text">
+            Segunda a Sexta: 09h — 20h<br>
+            Sábado: 08h — 18h<br>
+            Domingo: 09h — 14h
+          </div>
+        </div>
+      </div>
+
+      <div class="local-item">
+        <span class="local-icon">📞</span>
+        <div>
+          <span class="local-detail-title">Contato</span>
+          <div class="local-detail-text">
+            (61) 99673-0107<br>
+          </div>
+        </div>
+      </div>
+
+      <div class="local-item">
+        <span class="local-icon">📱</span>
+        <div>
+          <span class="local-detail-title">Redes Sociais</span>
+          <div class="local-detail-text">
+            @_diegobarber<br>
+            Instagram 
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="map-frame reveal">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d959.2724254904824!2d-48.06348533036063!3d-15.90437080927899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2cddac881701%3A0xd5e1bb562761a23b!2sQ%20203%20Conjunto%207%20-%20Q%20203%20-%20Recanto%20das%20Emas%2C%20Bras%C3%ADlia%20-%20DF%2C%2072610-300!5e0!3m2!1spt-BR!2sbr!4v1776792287964!5m2!1spt-BR!2sbr"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Localização Diego Barber">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- RODAPÉ -->
+<footer>
+  <div class="footer-main">
+    <div class="footer-brand">
+      <a href="#inicio" class="nav-logo" style="font-size:1.6rem;">Diego<span>Barber</span></a>
+      <p class="footer-tagline">
+        Excelência em barbearia desde 2023. Transformamos cortes em experiências e clientes em amigos.
+      </p>
+      <div class="social-links">
+        <a href="#" class="social-link" aria-label="Instagram">IG</a>
+        <a href="#" class="social-link" aria-label="WhatsApp">WA</a>
+      </div>
+    </div>
+
+    <div>
+      <div class="footer-col-title">Links Rápidos</div>
+      <ul class="footer-links">
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#planos">Planos & Valores</a></li>
+        <li><a href="#barbeiros">Nossos Barbeiros</a></li>
+        <li><a href="#clientes">Depoimentos</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="footer-col-title">Serviços</div>
+      <ul class="footer-links">
+        <li><a href="#servicos">Corte Clássico</a></li>
+        <li><a href="#servicos">Barba Completa</a></li>
+        <li><a href="#servicos">Combo Completo</a></li>
+        <li><a href="#servicos">Sombrancelha</a></li>
+        <li><a href="#servicos">Tratamento Capilar</a></li>
+        <li><a href="#servicos">Pintura Capilar</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="footer-col-title">Contato</div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">📍</span>
+        <div class="footer-contact-text">CLN 406 Bl. A, Loja 12<br>Asa Norte — Brasília, DF</div>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">📞</span>
+        <div class="footer-contact-text">(61) 99999-0000</div>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">✉️</span>
+        <div class="footer-contact-text">contato@blackgoldbarber.com.br</div>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">🕐</span>
+        <div class="footer-contact-text">Seg–Sex: 09h–20h<br>Sáb: 08h–18h | Dom: 09h–14h</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom" style="max-width:1400px;width:100%;box-sizing:border-box;">
+    <div class="footer-copy">
+      © 2026 <span>Diego Barber</span>. Todos os direitos reservados.
+    </div>
+    <div class="footer-legal">
+      <a href="#">Política de Privacidade</a>
+      <a href="#">Termos de Uso</a>
+      <a href="#">Agendar Online</a>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
